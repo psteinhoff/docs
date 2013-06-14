@@ -1,24 +1,4 @@
-﻿========
-Tutorials
-========
-
-
-Follow the instructions in our screencasts and tutorials:
-
-- Tutorial 1: <http://youtu.be/S2fY5WFsFwo>
-- Tutorial 2: <http://www.youtube.com/watch?v=_JxFxwVDSt0>
-- Tutorial 3: <http://www.youtube.com/watch?v=z1eqFL5JIJc>
-
-
-**Download** the necessary files from :ref:`downloads <downloads>` page
-
-
-
-Tutorial
----------
-
-
-New experiment:
+*new experiment:*
 
 • For a new set of experiments open a new file. The file should contain
 the following files: cal: for calibration, parameters, img and res
@@ -69,21 +49,21 @@ cal file.
 Fill in the name of the four calibration pictures ,four orientation data
 pictures and file of coordinates on plate.
 
- |image0|
+[h] |image0|
 
 *Calibration data detection:*
 
 Different parameters in order to detect the dots on the calibration
 target.
 
- |image1|
+[h] |image1|
 
 *Manual pre-orientation:*
 
 Fill in the numbers of four points on the calibration target. The
 numbers should be set as chosen in manual orientation.
 
- |image2|
+[h] |image2|
 
 *Calibration orientation parameters:*
 
@@ -98,7 +78,7 @@ In the first calibration process don’t mark those parameters. After
 establishing the calibration, the different parameters can be marked in
 order to improve the calibration.
 
- |image3|
+[h] |image3|
 
 • In the upper toolbar choose : calibration and create calibration
 
@@ -154,7 +134,7 @@ camera views simultaneously. [RequiredHinput]
 
 *Required input*
 
- |image4|
+[h] |image4|
 
 Somehow, an object with two well visible points has to be moved through
 the observation domain and recorder. The dumbbells points should be
@@ -177,21 +157,21 @@ tau\_dumbbell\_detection\_db\_v3b .Every target file should contain only
 write the name of the first dumbbell image, and the name of the
 calibration images you want to use.
 
- |image5|
+[h] |image5|
 
 *Particle recognition:*
 
 since there are ready target files, mark ````\ use
 existing\_target\_files\ ````.
 
- |image6|
+[h] |image6|
 
 *Sequence processing:*
 
 Fill in the numbers of the first and last picture in the sequence
 processing, and the base name for every camera.
 
- |image7|
+[h] |image7|
 
 *Criteria for correspondences:*
 
@@ -208,7 +188,7 @@ min for weighted correlation:
 tol band: The number that defines the distance from the epipolar line to
 the possible candidate [mm].
 
- |image8|
+[h] |image8|
 
 *Processing of a single time step: *
 
@@ -223,7 +203,7 @@ epipolar lines.
 The processing of a single time step is necessary to adjust parameters
 like grey value thresholds or tolerance to the epipolar line.
 
- |image9|
+[h] |image9|
 
 • In the upper toolbar choose: sequence, sequence without display
 
@@ -234,7 +214,7 @@ tracking, tracking without display and then show trajectory.
 
 *Dumbbell calibration parameters:*
 
- |image10|
+[h] |image10|
 
 *Eps [mm]:* It is the tolerable bandwith by which epipolar lines are
 allowed to miss each other during calibration. should be the same number
@@ -264,7 +244,7 @@ choose orient with dumbbell.
 
 *Shaking calibration: *
 
- |image11|
+[h] |image11|
 
 *Processing of a single time step*
 
@@ -273,19 +253,19 @@ choose orient with dumbbell.
 Write the name of the first image, and the name of the calibration
 images you want to use.
 
- |image12|
+[h] |image12|
 
 *Particle recognition:*
 
 Don’t mark ````\ use existing\_target\_files\ ````. fill the particle
 recognition parameters in order to find the particles.
 
- |image13|
+[h] |image13|
 
 • Press start in the upper toolbar. the four picture images from
 ````\ main parameters, general\ ```` will appear.
 
- |image14|
+[h] |image14|
 
 • Under Pretracking the processing of a single time step regularly
 starts with the application of a highpass filtering (Highpass). After
@@ -294,7 +274,7 @@ each particle is determined with a weighted grey value operator. The
 next step is to establish correspondences between the detected particles
 from one camera to all other cameras (Correspondences).
 
- |image15|
+[h] |image15|
 
 The processing of a single time step is necessary to adjust parameters
 like grey value thresholds or tolerance to the epipolar line.
@@ -331,12 +311,12 @@ capabilities of the
 
 enhanced method. To derive a velocity field from the observed flow.
 
- |image16|
+[h] |image16|
 
 • Tracking, Detected Particles displays the detected particles from the
 sequence processing.
 
- |image17|
+[h] |image17|
 
 • Choose tracking, tracking without display. Again it is not advisable
 to use the display option if long sequences are processed. The tracking
@@ -345,13 +325,13 @@ procedure allows bidirectional tracking.
 • Tracking, show Trajectories displays the reconstructed trajectories in
 all image display windows.
 
- |image18|
+[h] |image18|
 
 .. |image0| image:: ../images/fig1.png
 .. |image1| image:: ../images/fig2.png
 .. |image2| image:: ../images/fig3.png
 .. |image3| image:: ../images/fig4.png
-.. |image4| image:: ../images/fig5.png
+.. |image4| image:: ../images/fig5.jpg
 .. |image5| image:: ../images/fig6.png
 .. |image6| image:: ../images/fig7.png
 .. |image7| image:: ../images/fig8.png
@@ -366,9 +346,3 @@ all image display windows.
 .. |image16| image:: ../images/fig17.png
 .. |image17| image:: ../images/fig18.png
 .. |image18| image:: ../images/fig19.png
-
-
-
-
-    
-

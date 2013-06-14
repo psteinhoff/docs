@@ -6,6 +6,9 @@
 Welcome to OpenPTV documentation!
 ===================================
 
+	|logo|
+
+
 Contents:
 
 .. toctree::
@@ -29,5 +32,5 @@ Indices and tables
 * :ref:`search`
 
 
-
+.. |logo| image:: ../images/openptv_logo.png
 
