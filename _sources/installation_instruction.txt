@@ -1,17 +1,25 @@
 .. _installation_instruction:
 
-========================
-Installation instruction
-========================
+=========================
+Installation instructions
+=========================
+
+
+Please, read README files in the relevant Github repository:
+
+* `liboptv <http://github.com/openptv>`_
+* `openptv-python <http://github.com/openptv-python>`_
+
+
 
 .. _dependencies:
 
 Dependencies
 ============
 
-OpenPIV would not have been possible if other great open source projects did not
+OpenPTV would not have been possible if other great open source projects did not
 exist. We make extensive use of code and tools that other people have created, so 
-you should install them before you can use OpenPIV.
+you should install them before you can use OpenPTV.
 
 The dependencies are:
 
@@ -41,12 +49,10 @@ How to install the dependencies on a Mac
 The binary (32 or 64 bit) Enthought Python Distribution (EPD) is recommended.  Visit http://www.enthought.com. However, if you use EPD Free distribution, you need to install Cython from http://www.cython.org
 
 
-
-
-Get OpenPIV source code!
+Get OpenPTV source code!
 ========================
 
-At this moment the only way to get OpenPIV's source code is using git. 
+At this moment the only way to get OpenPTV's source code is using git. 
 `Git <http://en.wikipedia.org/wiki/Git_%28software%29>`_ Git is a distributed revision control system and 
 our code is hosted at `GitHub <www.github.com>`_.
 
@@ -54,31 +60,31 @@ Bleeding edge development version
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you are interested in the source code you are welcome to browse out git repository
-stored at https://github.com/alexlib/openpiv-python. If you want to download the source code
+stored at https://github.com/alexlib/OpenPTV-python. If you want to download the source code
 on your machine, for testing, you need to set up git on your computer. Please look at 
 http://help.github.com/ which provide extensive help for how to set up git.
 
-To follow the development of OpenPIV, clone our repository with the command::
+To follow the development of OpenPTV, clone our repository with the command::
 
-    git clone http://github.com/alexlib/openpiv-python.git
+    git clone http://github.com/alexlib/OpenPTV-python.git
 
 and update from time to  time. You can also download a tarball containing everything.
 
-Then add the path where the OpenPIV source are to the PYTHONPATH environment variable, so 
-that OpenPIV module can be imported and used in your programs. Remeber to build the extension
+Then add the path where the OpenPTV source are to the PYTHONPATH environment variable, so 
+that OpenPTV module can be imported and used in your programs. Remeber to build the extension
 with :: 
 
     python setup.py build 
 
 .. Stable source distribution
 .. ^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. If you do not want to follow the development of OpenPIV and you prefer a more stable
-.. version, download the source distributions available at http://www.openpiv.sourceforge.net,
+.. If you do not want to follow the development of OpenPTV and you prefer a more stable
+.. version, download the source distributions available at http://www.OpenPTV.sourceforge.net,
 .. in the downloads page. Then unpack it and execute the following command::
 
 ..    python setupy.py install --prefix=$DIR
     
-.. where ``$DIR`` is the folder you want ot install OpenPIV in. If you want to install it system
+.. where ``$DIR`` is the folder you want ot install OpenPTV in. If you want to install it system
 .. wide omit the ``--prefix`` option, but you should have root priviles to do so. Remember to 
 .. update the PYTHONPATH environment variable if you used a custom installation directory.
 
@@ -94,8 +100,8 @@ with ::
 
 Having problems?
 ================
-If you encountered some issues, found difficult to install OpenPIV following these instructions
-please drop us an email to openpiv-develop@lists.sourceforge.net , so that we can help you and 
+If you encountered some issues, found difficult to install OpenPTV following these instructions
+please drop us an email to OpenPTV-develop@lists.sourceforge.net , so that we can help you and 
 improve this page!
 
 

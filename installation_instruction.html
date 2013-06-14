@@ -8,7 +8,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Installation instruction &mdash; OpenPTV 0.00.001 documentation</title>
+    <title>Installation instructions &mdash; OpenPTV 0.00.001 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -25,7 +25,9 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="OpenPTV 0.00.001 documentation" href="index.html" /> 
+    <link rel="top" title="OpenPTV 0.00.001 documentation" href="index.html" />
+    <link rel="next" title="Tutorial" href="tutorial.html" />
+    <link rel="prev" title="Introduction" href="intro.html" /> 
   </head>
   <body>
     <div class="related">
@@ -37,6 +39,12 @@
         <li class="right" >
           <a href="py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
+        <li class="right" >
+          <a href="tutorial.html" title="Tutorial"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Introduction"
+             accesskey="P">previous</a> |</li>
         <li><a href="index.html">OpenPTV 0.00.001 documentation</a> &raquo;</li> 
       </ul>
     </div>  
@@ -46,13 +54,18 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="installation-instruction">
-<span id="id1"></span><h1>Installation instruction<a class="headerlink" href="#installation-instruction" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="installation-instructions">
+<span id="installation-instruction"></span><h1>Installation instructions<a class="headerlink" href="#installation-instructions" title="Permalink to this headline">¶</a></h1>
+<p>Please, read README files in the relevant Github repository:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://github.com/openptv">liboptv</a></li>
+<li><a class="reference external" href="http://github.com/openptv-python">openptv-python</a></li>
+</ul>
 <div class="section" id="dependencies">
-<span id="id2"></span><h2>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
-<p>OpenPIV would not have been possible if other great open source projects did not
+<span id="id1"></span><h2>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
+<p>OpenPTV would not have been possible if other great open source projects did not
 exist. We make extensive use of code and tools that other people have created, so
-you should install them before you can use OpenPIV.</p>
+you should install them before you can use OpenPTV.</p>
 <p>The dependencies are:</p>
 <ul class="simple">
 <li><a class="reference external" href="http://python.org/">python</a></li>
@@ -79,23 +92,23 @@ without spaces in the directory names (i.e. Program Files are prohibited), e.g. 
 <p>The binary (32 or 64 bit) Enthought Python Distribution (EPD) is recommended.  Visit <a class="reference external" href="http://www.enthought.com">http://www.enthought.com</a>. However, if you use EPD Free distribution, you need to install Cython from <a class="reference external" href="http://www.cython.org">http://www.cython.org</a></p>
 </div>
 </div>
-<div class="section" id="get-openpiv-source-code">
-<h2>Get OpenPIV source code!<a class="headerlink" href="#get-openpiv-source-code" title="Permalink to this headline">¶</a></h2>
-<p>At this moment the only way to get OpenPIV&#8217;s source code is using git.
+<div class="section" id="get-openptv-source-code">
+<h2>Get OpenPTV source code!<a class="headerlink" href="#get-openptv-source-code" title="Permalink to this headline">¶</a></h2>
+<p>At this moment the only way to get OpenPTV&#8217;s source code is using git.
 <a class="reference external" href="http://en.wikipedia.org/wiki/Git_%28software%29">Git</a> Git is a distributed revision control system and
 our code is hosted at <a class="reference external" href="www.github.com">GitHub</a>.</p>
 <div class="section" id="bleeding-edge-development-version">
 <h3>Bleeding edge development version<a class="headerlink" href="#bleeding-edge-development-version" title="Permalink to this headline">¶</a></h3>
 <p>If you are interested in the source code you are welcome to browse out git repository
-stored at <a class="reference external" href="https://github.com/alexlib/openpiv-python">https://github.com/alexlib/openpiv-python</a>. If you want to download the source code
+stored at <a class="reference external" href="https://github.com/alexlib/OpenPTV-python">https://github.com/alexlib/OpenPTV-python</a>. If you want to download the source code
 on your machine, for testing, you need to set up git on your computer. Please look at
 <a class="reference external" href="http://help.github.com/">http://help.github.com/</a> which provide extensive help for how to set up git.</p>
-<p>To follow the development of OpenPIV, clone our repository with the command:</p>
-<div class="highlight-python"><pre>git clone http://github.com/alexlib/openpiv-python.git</pre>
+<p>To follow the development of OpenPTV, clone our repository with the command:</p>
+<div class="highlight-python"><pre>git clone http://github.com/alexlib/OpenPTV-python.git</pre>
 </div>
 <p>and update from time to  time. You can also download a tarball containing everything.</p>
-<p>Then add the path where the OpenPIV source are to the PYTHONPATH environment variable, so
-that OpenPIV module can be imported and used in your programs. Remeber to build the extension
+<p>Then add the path where the OpenPTV source are to the PYTHONPATH environment variable, so
+that OpenPTV module can be imported and used in your programs. Remeber to build the extension
 with</p>
 <div class="highlight-python"><pre>python setup.py build</pre>
 </div>
@@ -103,8 +116,8 @@ with</p>
 </div>
 <div class="section" id="having-problems">
 <h2>Having problems?<a class="headerlink" href="#having-problems" title="Permalink to this headline">¶</a></h2>
-<p>If you encountered some issues, found difficult to install OpenPIV following these instructions
-please drop us an email to <a class="reference external" href="mailto:openpiv-develop&#37;&#52;&#48;lists&#46;sourceforge&#46;net">openpiv-develop<span>&#64;</span>lists<span>&#46;</span>sourceforge<span>&#46;</span>net</a> , so that we can help you and
+<p>If you encountered some issues, found difficult to install OpenPTV following these instructions
+please drop us an email to <a class="reference external" href="mailto:OpenPTV-develop&#37;&#52;&#48;lists&#46;sourceforge&#46;net">OpenPTV-develop<span>&#64;</span>lists<span>&#46;</span>sourceforge<span>&#46;</span>net</a> , so that we can help you and
 improve this page!</p>
 </div>
 </div>
@@ -117,14 +130,14 @@ improve this page!</p>
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Installation instruction</a><ul>
+<li><a class="reference internal" href="#">Installation instructions</a><ul>
 <li><a class="reference internal" href="#dependencies">Dependencies</a><ul>
 <li><a class="reference internal" href="#how-to-install-the-dependencies-on-linux">How to install the dependencies on Linux</a></li>
 <li><a class="reference internal" href="#how-to-install-the-dependencies-on-windows">How to install the dependencies on Windows</a></li>
 <li><a class="reference internal" href="#how-to-install-the-dependencies-on-a-mac">How to install the dependencies on a Mac</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#get-openpiv-source-code">Get OpenPIV source code!</a><ul>
+<li><a class="reference internal" href="#get-openptv-source-code">Get OpenPTV source code!</a><ul>
 <li><a class="reference internal" href="#bleeding-edge-development-version">Bleeding edge development version</a></li>
 </ul>
 </li>
@@ -133,6 +146,12 @@ improve this page!</p>
 </li>
 </ul>
 
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="intro.html"
+                        title="previous chapter">Introduction</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="tutorial.html"
+                        title="next chapter">Tutorial</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/installation_instruction.txt"
@@ -164,6 +183,12 @@ improve this page!</p>
         <li class="right" >
           <a href="py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
+        <li class="right" >
+          <a href="tutorial.html" title="Tutorial"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Introduction"
+             >previous</a> |</li>
         <li><a href="index.html">OpenPTV 0.00.001 documentation</a> &raquo;</li> 
       </ul>
     </div>
