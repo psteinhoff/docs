@@ -11,8 +11,6 @@ There is a zip file containing sample images and parameters for analysing them w
 
 Test 1: :download:`test 1 <../downloads/test1.zip>`
 
-Part 2: :download:`test 2 <../downloads/test2.zip>`
-
 
 
 Old documentation

@@ -18,7 +18,7 @@ Prerequisites:
 --------------
 
 
-1. [Optional, recommended] Download and install the unit testing framework <http://check.sourceforge.net/> - without this one you cannot test the compilation properly, although you can install and run the PyPTV software.
+1. Download and install the unit testing framework <http://check.sourceforge.net/> - without this one you cannot test the compilation properly, although you can install and run the PyPTV software.
 
 2. Install the OpenPTV library (`liboptv`) from source: <https://github.com/openptv/openptv/>. Please follow closely the Installation instructions. 
 	* If you are not interested in development, **download** the appropriate pre-compiled library files: [liboptv installers](http://goo.gl/MqDzP). 
@@ -32,10 +32,10 @@ package manager, `apt-get` or Mac OS X `homebrew` or `ports`) then you need Pyth
  * If you don't want to test, **skip** this step, proceed to PyPTV installation:
  * If you want to run the tests: use the same set of `autotools`. On Mac OS X you might need to add `CC="gcc -arch i386"` to the `./configure` command. 
 
-			autoreconf --install
-			./configure
-			make
-			make check
+	autoreconf --install
+	./configure
+	make
+	make check
  
 
 Install OpenPTV-Python:
@@ -43,27 +43,23 @@ Install OpenPTV-Python:
 
 Install by compiling the Python/Cython interface to the `liboptv` library (unrelated to the tests in the previous step) and install it to the default locations:
 
-		cd pyptv_gui
-		python setup.py install
+	cd pyptv_gui
+	python setup.py install
 	
 or if you don't want to install somewhere in the path, compile all the necessary libraries in the `../src_c` directory 
 
-		python setup.py build_ext --inplace
+	python setup.py build_ext --inplace
+	
 if the setup process creates errors related to `liboptv` linking, please add the `/include` and `/lib` locations, e.g.:
 
-		python setup.py install -I /usr/local/include -L /usr/local/lib
+	python setup.py install -I /usr/local/include -L /usr/local/lib
 
 
 Download pre-built binary distributions
 ---------------------------------------
 
 For Mac OS X with Canopy (EPD) we provide pre-built distributions which can be used without the hassles
-of compilation and other boring things you may not want to dig into. This is currently a work
-n progress. Check back soon!
-
-
-
-
+of compilation and other boring things you may not want to dig into. This is currently a work in progress. Check back soon!
 
 
 Having problems?

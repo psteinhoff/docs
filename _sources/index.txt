@@ -17,6 +17,7 @@ Contents:
    developers
    code
    api_reference
+   downloads_page
 
    
 

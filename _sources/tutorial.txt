@@ -15,6 +15,8 @@ Tutorial 3: <http://www.youtube.com/watch?v=z1eqFL5JIJc>
 Download the necessary files from :ref:`downloads <downloads>` page
 
 
+* :ref:`downloads_page`
+
 
 
     
