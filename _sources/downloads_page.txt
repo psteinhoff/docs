@@ -1,14 +1,21 @@
 .. _downloads:
 
-Download OpenPIV Example
+Download OpenPTV files
 ========================
 
-Tutorial files
+Test files
 --------------
 
-These are zip files containing sample images and python scripts for analysing them with OpenPIV. These files are included in the source code if cloned from the Git. 
+There is a zip file containing sample images and parameters for analysing them with OpenPTV. These files are also available from our Github repository. 
 
 
-Part 1: how to process an image pair. :download:`source code and sample images <../downloads/tutorial-part1.zip>`
+Test 1: :download:`test 1 <../downloads/test1.zip>`
 
-Part 2: how to process in batch a list of image pairs. :download:`source code and sample images <../downloads/tutorial-part2.zip>`
+Part 2: :download:`test 2 <../downloads/test2.zip>`
+
+
+
+Old documentation
+------------------
+
+
